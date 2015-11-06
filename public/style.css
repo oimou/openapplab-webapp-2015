@@ -1,6 +1,7 @@
 body{
 	margin:0;
 	height: 100%;
+	font-size:40px;
 }
 
 h1{
@@ -10,9 +11,10 @@ h1{
 }
 
 h2{
-	font-size:20px;
+	font-size:40px;
 	margin: 10px;
-	color: darkgray;
+	margin-top: 60px;
+	color: gray;
 }
 
 button{
@@ -52,11 +54,12 @@ a{
 	left:100px;
 	text-align: center;
 	color: white;
-	font-size:20px;
+	font-size: 40px;
 }
 
 .button-area{
 	text-align: center;
+	margin-top: 20px;
 }
 
 .main{
@@ -77,42 +80,66 @@ a{
 
 .white-box{
 	background: white;
-	width: 150px;
-	height: 100%;
+	width: 400px;
+	height: 700px;
 	border-radius: 20px;
 	float: left;
 	margin: 10px;
+	margin-left:80px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+	text-align: center;
+}
+
+.white-box2{
+	background: white;
+	width: 400px;
+	height: 700px;
+	border-radius: 20px;
+	float: left;
+	margin: 10px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+	text-align: center;
 }
 
 .Oshimen{
 	text-align: center;
 	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .toshi{
 	background: orange;
 	border-radius: 40px;
-	width: 130px;
-	height: 40px;
+	width: 300px;
+	height: 70px;
 	color: white;
 	box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
-	line-height:40px;
+	line-height: 70px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .twitter{
 	background: skyblue;
-	border-radius: 40px;
-	width: 130px;
-	height: 40px;
+	border-radius: 10px;
+	width: 800px;
+	height: 90px;
 	color: white;
-	line-height:40px;
+	line-height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 40px;
 }
 
 .facebook{
-	background: skyblue;
-	border-radius: 40px;
-	width: 130px;
-	height: 40px;
+	background: blue;
+	border-radius: 10px;
+	width: 800px;
+	height: 90px;
 	color: white;
-	line-height:40px;
+	line-height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 40px;
 }
