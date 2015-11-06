@@ -1,5 +1,6 @@
 body{
 	margin:0;
+	height: 100%;
 }
 
 h1{
@@ -18,6 +19,10 @@ button{
 	margin: 10px;
 	height: 40px;
 	width: 300px;
+}
+
+a{
+	text-decoration: none;
 }
 
 .header{
@@ -64,4 +69,50 @@ button{
 
 .button2{
 	background-color:blue;
+}
+
+.man-image{
+	margin: 20px;
+}
+
+.white-box{
+	background: white;
+	width: 150px;
+	height: 100%;
+	border-radius: 20px;
+	float: left;
+	margin: 10px;
+}
+
+.Oshimen{
+	text-align: center;
+	margin: auto;
+}
+
+.toshi{
+	background: orange;
+	border-radius: 40px;
+	width: 130px;
+	height: 40px;
+	color: white;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+	line-height:40px;
+}
+
+.twitter{
+	background: skyblue;
+	border-radius: 40px;
+	width: 130px;
+	height: 40px;
+	color: white;
+	line-height:40px;
+}
+
+.facebook{
+	background: skyblue;
+	border-radius: 40px;
+	width: 130px;
+	height: 40px;
+	color: white;
+	line-height:40px;
 }
