@@ -4,17 +4,29 @@ body{
 	font-size:40px;
 }
 
+p{
+	margin:0;
+}
+
 h1{
-	font-size:30px;
+	font-size: 50px;
 	margin: 10px;
 	color: white;
+	margin-left: 50px;
+	margin-top: 20px;
 }
 
 h2{
 	font-size:40px;
 	margin: 10px;
-	margin-top: 60px;
+	margin-top: 50px;
 	color: gray;
+}
+
+h3{
+	color: pink;
+	margin: 0;
+	font-size: 40px;
 }
 
 button{
@@ -29,10 +41,11 @@ a{
 
 .header{
 	position: absolute;
+	height: 120px;
 	top: 0px;
 	background-color:orange ;
 	margin: 0px;
-	width:100%;
+	width: 100%;
 }
 
 .contents{
@@ -51,7 +64,7 @@ a{
 .mojinose{
 	position:absolute;
 	top:50%;
-	left:100px;
+	left:230px;
 	text-align: center;
 	color: white;
 	font-size: 40px;
@@ -82,10 +95,11 @@ a{
 	background: white;
 	width: 400px;
 	height: 700px;
+	height: 640px;
 	border-radius: 20px;
 	float: left;
 	margin: 10px;
-	margin-left:80px;
+	margin-left: 80px;
 	box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
 	text-align: center;
 }
@@ -93,10 +107,10 @@ a{
 .white-box2{
 	background: white;
 	width: 400px;
-	height: 700px;
+	height: 640px;
 	border-radius: 20px;
 	float: left;
-	margin: 10px;
+	margin: 20px;
 	box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
 	text-align: center;
 }
@@ -118,6 +132,7 @@ a{
 	line-height: 70px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 20px;
 }
 
 .twitter{
@@ -127,6 +142,7 @@ a{
 	height: 90px;
 	color: white;
 	line-height: 100px;
+	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 40px;
@@ -139,6 +155,7 @@ a{
 	height: 90px;
 	color: white;
 	line-height: 100px;
+	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 40px;
