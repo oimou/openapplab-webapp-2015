@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+}
+
+.drawers {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+.hamburger {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -25px;
+  width: 50px; /* クリックエリアの横幅*/
+  height: 50px; /* クリックエリアの高さ*/
+  cursor: pointer;
+}
+.hamburger .line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 50px; /* 横幅 */
+  height: 3px; /* 1本辺りの高さ */
+  background: #000; /* 線の色 */
+
+  /* 適用するプロパティ、変化する時間、変化する速度 */
+/*  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; */
+ }
+ 
+
+/* 3本線の各線の位置を指定 ---------------------- */
+.hamburger .line-01 { top: 10px; }
+.hamburger .line-02 { top: 24px; }
+.hamburger .line-03 { top: 38px; }
+
+
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  background: orange;
+  opacity: 0.5;
+}
