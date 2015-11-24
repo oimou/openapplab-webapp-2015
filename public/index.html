@@ -1,101 +1,137 @@
 <html lang="ja">
-  <head>
+<head>
   <meta http-equiv="Content-Type" charset="utf-8">
-    <title>カブドラプロトタイプ</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.js/1.9.3/snap.js"></script>
-        <script type="text/javascript" src="index.js"></script>
-  </head>
+  <title>カブドラプロトタイプ</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.js/1.9.3/snap.min.js"></script>
+  <script src="lib/headroomjs/headroom.min.js"></script>
+  <script src="lib/headroomjs/jQuery.headroom.js"></script>
+  <script src="lib/headroomjs/jQuery.headroom.min.js"></script>
+  <script src="js/index.js"></script>
+</head>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
+<body>
 
-  <body>
-  	<div class="contents">
+  <div class="drawers">
+    <div class="left-drawer">
+      <div id="close">ここをクリックで閉じるよ</div>
+    </div>
+  </div>
 
-  		<div class="top-image">
-  			<img src="http://placehold.jp/980x500.png">
-  			<div class="mojinose">
-  				お気に入り選手を見つけて<br>
-     			投資しよう!
-  			</div>
-  		</div>
-
-
-  		<div class="header">
-  			<h1>カブドラ</h1>
-  		</div>
-
-  		<div class="button-area">
-        <a href=""><div class="twitter">Twitterでログイン</div></a>
-  			<a href=""><div class="facebook">Facebookでログイン</div></a>
-  		</div>
-
-  		<div class ="main">
-  			<h2>人気急上昇！パリーグ推しメン！</h2>
-  		</div>
-
-      <div class="Oshimen">
-
-        <div class="white-box">
-          <div class="man-image">
-            <img src="http://placehold.jp/350x350.png">
-          </div>
-          <p>藤井靖史選手</p>
-          <h3>4537 point UP!</h3>
-          <a href="">
-            <div class="toshi">
-              投資する
-            </div>
-          </a>
-        </div>
-
-        <div class="white-box2">
-          <div class="man-image">
-            <img src="http://placehold.jp/350x350.png">
-          </div>
-          <p>藤井靖史選手</p>
-          <h3>4537 point UP!</h3>
-          <a href="">
-            <div class="toshi">
-              投資する
-            </div>
-          </a>
-        </div>
-
-
-        <div class="white-box">
-          <div class="man-image">
-            <img src="http://placehold.jp/350x350.png">
-          </div>
-          <p>藤井靖史選手</p>
-          <h3>4537 point UP!</h3>
-          <a href="">
-            <div class="toshi">
-              投資する
-            </div>
-          </a>
-        </div>
-
-        <div class="white-box2">
-          <div class="man-image">
-            <img src="http://placehold.jp/350x350.png">
-          </div>
-          <p>藤井靖史選手</p>
-          <h3>4537 point UP!</h3>
-          <a href="">
-            <div class="toshi">
-              投資する
-            </div>
-          </a>
-        </div>
-
+  <div id="content" class="content" data-snap-ignore="true">
+    <div class="top-image">
+      <div class="mojinose">
+        お気に入り選手を見つけて<br>
+        投資しよう!
       </div>
+    </div>
 
-  	</div><!--contents -->
-            <div class="drawers">
-            <div class="left-drawer">aaa</div>
+    <!-Header->
+    <div id ="header" class="header">
+      <h1>カブドラ</h1>
+      <div id="open-right">
+        <img class="ham_icon" src="/img/btn-hamburger.png">
+      </div>
+    </a>
+  </div><!-header->
+
+  <div class="button-area">
+    <a href=""><div class="twitter">Twitterでログイン</div></a>
+    <a href=""><div class="facebook">Facebookでログイン</div></a>
+  </div>
+
+  <div class ="main">
+    <h2>人気急上昇！パリーグ推しメン！</h2>
+  </div>
+
+  <div class="box-area">
+    <div class="white-box">
+      <div class="man-image">
+        <img src="http://placehold.jp/350x350.png">
+      </div>
+      <p>藤井靖史選手</p>
+      <h3>4537 point UP!</h3>
+      <a href="">
+        <div class="toshi">
+          投資する
         </div>
-        <div id="content" class="content">コンテンツ</div>
-  </body>
+      </a>
+    </div>
+
+    <div class="white-box">
+      <div class="man-image">
+        <img src="http://placehold.jp/350x350.png">
+      </div>
+      <p>藤井靖史選手</p>
+      <h3>4537 point UP!</h3>
+      <a href="">
+        <div class="toshi">
+          投資する
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="box-area">
+    <div class="white-box">
+      <div class="man-image">
+        <img src="http://placehold.jp/350x350.png">
+      </div>
+      <p>藤井靖史選手</p>
+      <h3>4537 point UP!</h3>
+      <a href="">
+        <div class="toshi">
+          投資する
+        </div>
+      </a>
+    </div>
+
+    <div class="white-box">
+      <div class="man-image">
+        <img src="http://placehold.jp/350x350.png">
+      </div>
+      <p>藤井靖史選手</p>
+      <h3>4537 point UP!</h3>
+      <a href="">
+        <div class="toshi">
+          投資する
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class="box-area">
+    <div class="white-box">
+      <div class="man-image">
+        <img src="http://placehold.jp/350x350.png">
+      </div>
+      <p>藤井靖史選手</p>
+      <h3>4537 point UP!</h3>
+      <a href="">
+        <div class="toshi">
+          投資する
+        </div>
+      </a>
+    </div>
+
+    <div class="white-box">
+      <div class="man-image">
+        <img src="http://placehold.jp/350x350.png">
+      </div>
+      <p>藤井靖史選手</p>
+      <h3>4537 point UP!</h3>
+      <a href="">
+        <div class="toshi">
+          投資する
+        </div>
+      </a>
+    </div>
+  </div>
+
+
+
+</div>
+
+</body>
 </html>
