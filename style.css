@@ -1,50 +1,107 @@
 html,
 body {
   height: 100%;
+  margin:0;
+  font-size:40px;
 }
 
-.drawers {
-  position: absolute;
+p{
+  margin:0;
+}
+
+h1{
+  font-size:50px;
+  margin:10px;
+  color:white;
+  margin-left:50px;
+  margin-left:20px;
+}
+
+h2{
+  font-size:40px;
+  margin:10px;
+  margin-top:50px;
+  color:gray;
+}
+
+h3{
+  color:pink;
+  margin: 0;
+  font-size: 40px;
+}
+
+button{
+margin: 10px;
+height: 40px;
+width: 300px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header{
+position: absolute;
+height: 120px;
+top: 0px;
+background-color: orange;
+margin: 0px;
+opacity: 0.5;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+overflow: scroll;
+background-image: url("");
+}
+
+.contents{
+  margin: 0px;
+  position: relative;
   width: 100%;
   height: 100%;
-  background: white;
+  background-color:  whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: scroll;
 }
 
-.hamburger {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  margin-left: -25px;
-  width: 50px; /* クリックエリアの横幅*/
-  height: 50px; /* クリックエリアの高さ*/
-  cursor: pointer;
+.top-image{
+  position: relative;
+  margin-bottom: 10px;
 }
-.hamburger .line {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 50px; /* 横幅 */
-  height: 3px; /* 1本辺りの高さ */
-  background: #000; /* 線の色 */
-
   /* 適用するプロパティ、変化する時間、変化する速度 */
 /*  -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out; */
- }
- 
-
-/* 3本線の各線の位置を指定 ---------------------- */
-.hamburger .line-01 { top: 10px; }
-.hamburger .line-02 { top: 24px; }
-.hamburger .line-03 { top: 38px; }
-
-
-
-.content {
-  position: absolute;
-  width: 100%;
-  height: 10%;
-  background: orange;
-  opacity: 0.5;
+.sennshu{
+  position:absolute;
+  top:50%;
+  left:200px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
 }
+
+.botton-area{
+  text-align: center;
+  margin-top: 20px;
+}
+.twitter{
+  background: skyblue;
+  text-align: center;
+}
+.facebook{
+  background: blue;
+  /*display: inline;*/
+  text-align: center;
+}
+/*twitter,faceobook button*/
+
+.twitter, .facebook{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*headroom.js*/
+.headroom {position: fixed;top: 0;left: 0; right: 0;transition: all; .2s linear;}
+.headroom--unpinned {top: -100px;}
+.headroom--pinned {top: 0;}
