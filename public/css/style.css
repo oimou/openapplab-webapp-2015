@@ -1,0 +1,166 @@
+html,body{
+	margin:0;
+	height: 100%;
+	width: 100%;
+	font-size:40px;
+}
+
+p{
+	margin:0;
+}
+
+h1{
+	font-size: 50px;
+	margin: 10px;
+	color: white;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+h2{
+	font-size:40px;
+	margin: 10px;
+	margin-top: 50px;
+	margin-left: 80px;
+	color: #2E2E2E;
+}
+
+h3{
+	color: pink;
+	font-size: 40px;
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*
+header
+*/
+.header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100px;
+	width: 100%;
+	background-image: url("../img/bg-header.png");
+}
+
+/*
+contents
+*/
+.content {
+    position: absolute;
+	background-color: whitesmoke;
+    width: 100%;
+}
+
+.top-image{
+	position: relative;
+	margin-bottom: 10px;
+	background-image: url("../img/bg-img.png");
+	background-size: cover;
+	height: 900px;
+}
+
+.mojinose{
+	padding-top: 400px;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
+
+.button-area{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.man-image{
+	margin: 20px;
+}
+
+.box-area{
+	margin: 0 43px;
+	margin-left: 45px; 
+}
+
+.white-box{
+	background: white;
+	width: 400px;
+	height: 640px;
+	border-radius: 20px;
+	margin: 20px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+	float: left;
+	text-align: center;
+	display: block;
+}
+
+
+
+/*
+button
+*/
+
+.toshi{
+	background: orange;
+	border-radius: 40px;
+	width: 300px;
+	height: 70px;
+	color: white;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+	line-height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.twitter,.facebook{
+	border-radius: 10px;
+	width: 800px;
+	height: 90px;
+	color: white;
+	line-height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 40px;
+}
+
+.twitter{
+	background: #2E9AFE;
+	margin-top: 50px;
+}
+
+.facebook{
+	background: #0431B4;
+	margin-top: 30px;
+}
+
+
+/*
+ハンバーガー
+*/
+.ham_icon{
+	position:absolute;
+	right: 50px;
+	top: 40px;
+}
+.drawers {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.left-drawer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	background-image: url("../img/prot.png");
+	background-size: cover;
+}
+/*
+	headroom.js
+*/
+.headroom {position: fixed;top: 0;left: 0;right: 0;transition: all .2s ease-in-out;}
+.headroom--unpinned {top: -100px;}
+.headroom--pinned {top: 0;}
